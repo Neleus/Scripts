@@ -1,4 +1,6 @@
 #!/bin/sh
+## OS: "ubuntu2004","ubuntu2204","ubuntu2404","debian12","debian11"
+
 vm_export_variable() {
     echo "vm6_variable $1='$(echo -n $2 | base64 -w 0)'";
 }
